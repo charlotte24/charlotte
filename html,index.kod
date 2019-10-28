@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+
+<title>Drink Beer</title>
+<link rel="stylesheet" href=" style.css">
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+<!---Navigation bar start-->
+<section id="nav-bar">
+	<nav class="navbar navbar-expand-lg navbar-light">
+	<a class="navbar-brand" href="#"><img src="img\img9.jpg"></a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"aria-expanded="false" aria-label="Toggle navigation">
+
+	<span class="navbar-toggler-icon"></span>
+	
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+	<ul class="navbar-nav ml-auto">
+
+	<li class="nav-item">
+    <a class="nav-link" href="#">Home</a>
+    </li> 
+  
+  	<li class="nav-item">
+  	
+  	<a class="nav-link" href="#">ABOUT ME</a>
+	</li>
+ 	
+	<li class="nav-item">
+    <a class="nav-link" href="#">TYPES OF BEER</a>
+
+
+	</li>
+	<li class="nav-item">
+	<a class="nav-link" href="#">WELCOME TO DRINK BEER</a>
+    </li>
+ 	</ul>
+
+    </div>
+  </div>
+</nav>	
+</section>
+<!-- End of Navigation bar--> 
+
+<!--slider start-->
+<div id="slider">
+	<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 img-fluid" src="img\img3.jpg">
+      <div class="carousel-caption">
+      <h5>
+      	I would kill everyone in this room for a drop of sweet beer. - Homer Simpson
+      </h5>	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-fluid" src="img\img7.jpg">
+      <div class="carousel-caption">
+      <h5>
+      	Beauty lies in the hands of the beer holder. - Anonymous
+      </h5>	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-fluid" src="img\img8.jpg">
+      <div class="carousel-caption">
+      <h5>
+      	Everyone needs to believe in something. I believe I'll have another beer. - coolfunnyquotes.com 
+      </h5>	
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" 
+  href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" 
+  href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>	
+	
+</div>
+
+<!--End of slider-->
+
+<!---About--->
+<section id="about">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-6">
+	<h2>Which Country Drinks The Most Beer?</h2>
+	<div class="about-content">
+	The first beer was most likely brewed in Mesopotamia around 7000 BCE. Presently, beer is the fourth most popular drink in the world after water, tea, and coffee. It is also the most popular alcoholic beverage in the world. For investors, the beer business is a sure bet in most countries. Even in times of economic crisis, people continue to buy and consume beer.	
+	</div>	
+	<button type="button" class="btn btn-primary">Read more>>
+	</button>
+	</div>
+	<div class="col-md-6 skills-bar">
+
+	<p>liters of beer in different countries</p>
+
+	<p>Czech Republic 142.6</p>
+	<div class="progress">
+	<div class="progress-bar" style="width: 100%;">100%</div>
+	</div>
+
+	<p>Seychelles114.6</p>
+	<div class="progress">
+	<div class="progress-bar" style="width: 95%;">95%</div>
+	</div>
+
+	<p>	Austria	104.8</p>
+	<div class="progress">
+	<div class="progress-bar" style="width: 85%;">85%</div>
+	</div>
+
+	<p>Germany 104.7</p>
+	<div class="progress">
+	<div class="progress-bar" style="width: 75%;">75%</div>
+	</div>	
+
+	</section>
+<!--End of about-->
+
+<!--Footer-->
+<section id="footer">
+	<div class="container text-center">
+	<p>Made with<i class="fa fa-heart-o"></i></p>	
+	</div>	
+	
+</section>
+
+<!--End of footer-->
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" icrossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous">
+	
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"  crossorigin="anonymous">
+	
+</script>
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,172 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*---------Navigation---------*/
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
+}
+.navbar-brand img
+{
+	height: 60px;
+	padding-left: 30px;
+
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+.navbar-nav li a
+{
+
+float: right;
+text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+color: #007bff!important;
+}
+
+.navbar{
+	background: #333;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+
+.nav-link
+{
+	color: rgba(0,255,255)!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+
+/*---slider---*/
+#slider
+{
+width: 100%;
+
+}
+
+.carousel-caption
+{
+top:50%;
+transform: translateY(-50%);
+bottom: initial!important;
+}
+.carousel-caption h5
+{
+color: #fff;
+font-size: 42px;
+
+}
+/*--card--*/
+
+.card
+{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	justify-content: center;
+	align-items: center;
+	width: 330px;
+	height: 400px;
+	min-height: 110vh;
+	float: auto;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	overflow: hidden;
+	position: relative;
+	transition: all .2s;
+	text-align: center;
+
+}
+.card;hover
+{
+	top: -10;
+	box-shadow: 0 15px 16px rgba(0,0,0,0.2);
+
+}
+
+/*---about---*/
+#about
+{
+padding-top: 50px;
+padding-bottom: 50px;
+color: #555;
+
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+.about-content
+{
+	padding-top: 20px;
+
+}
+.skills-bar p
+{
+	margin-bottom: 20px;
+	font-size: 600;
+	color:rgba(128,0,0)!important;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px !important;
+	margin-bottom: 20px;
+}
+
+/*footer*/
+#footer
+{
+background: #333;
+color: #fff;
+padding: 12px;
+}
+.fa-heart-o
+{
+	margin: 3px;
+	color: red;
+}
+/*----social-media section---*/
+#social-media
+{
+	background: #f8f9fa;
+	padding: 100px 0;
+}
+
+#social-media p
+{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.social-icons img
+{
+	width: 80px;
+	transition: 0.5s;
+}
+.social-icons a:hover img
+{
+transform: translateY(-10px);
+}
